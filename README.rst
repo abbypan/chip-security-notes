@@ -1,6 +1,6 @@
-Android Security Notes
+Chip Security Notes
 ==========================
 
-Android 安全笔记
+芯片安全笔记
 
-https://android-security-notes.readthedocs.io/
+https://chip-security-notes.readthedocs.io/
