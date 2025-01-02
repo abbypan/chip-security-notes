@@ -20,3 +20,11 @@
    :caption: TPM
 
    tpm/tpm2
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Secure Storage
+
+   storage/rpmb
+
