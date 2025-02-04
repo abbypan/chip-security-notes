@@ -52,21 +52,23 @@ Non-Trusted Firmware Updater certificate
 
     Extension域包含： Firmware Updater hash，AP Firmware Update Config hash，SCP Firmware Update Config hash
 
- Trusted Boot Firmware certificate
+
+Trusted Boot Firmware certificate
 **************************************************
 
     Public Key (OEM): Root of Trust Public Key
 
     Extension域包含：Trusted Boot Firmware的hash，NV Counter
 
- Trusted Key certificate
+Trusted Key certificate
 **************************************************
 
     Public Key (OEM): Root of Trust Public Key
 
     Extension域包含： NV Counter, Primary Debug Certificate Public Key, Trusted World Public Key, Non Trusted World Public Key
 
- Trusted Debug Certificate
+
+Trusted Debug Certificate
 **************************************************
 
         Public Key (OEM) : Primary Debug Certificate Public Key
@@ -79,7 +81,8 @@ Non-Trusted Firmware Updater certificate
 
             Extension域包含：Debug Scenario, `SOC_ID`, SoC Specific
 
-     Trusted SoC Firmware certificate
+
+Trusted SoC Firmware certificate
 **************************************************
 
         Public Key (OEM) : Trusted World Public Key
@@ -92,7 +95,8 @@ Non-Trusted Firmware Updater certificate
 
             Extension域包含：NV Counter, AP Rom Patch Hash, SoC Config Hash, SoC AP Firmware Hash
 
-     Trusted OS Firmware certificate
+
+Trusted OS Firmware certificate
 **************************************************
 
         Public Key (OEM) : Trusted World Public Key
@@ -106,7 +110,7 @@ Non-Trusted Firmware Updater certificate
             Extension域包含：NV Counter, Trusted OS Firmware Hash
 
 
-     Non-Trusted Firmware Key certificate
+Non-Trusted Firmware Key certificate
 **************************************************
 
         Public Key (OEM) : Non Trusted World Public Key
@@ -119,7 +123,8 @@ Non-Trusted Firmware Updater certificate
 
             Extension域包含：NV Counter, Non Trusted World Bootloader Hash
 
-     Trusted SCP Firmware certificate
+
+Trusted SCP Firmware certificate
 **************************************************
 
         Public Key (OEM) : Trusted World Public Key
