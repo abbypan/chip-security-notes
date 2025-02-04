@@ -10,9 +10,18 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: Platform
+
+   platform/index
+   platform/tbsa
+
+.. toctree::
+   :maxdepth: 1
    :caption: Secure Boot
 
    secuboot/index
+   secuboot/tbbr
+   secuboot/dice
 
 
 .. toctree::
@@ -33,4 +42,4 @@
    :maxdepth: 1
    :caption: Attestation
 
-   attestation/amd-sev-snp
+   attestation/amd-sev-snp-att
