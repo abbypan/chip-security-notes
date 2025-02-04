@@ -28,3 +28,9 @@
 
    storage/rpmb
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Attestation
+
+   attestation/amd-sev-snp
