@@ -1,5 +1,5 @@
 Trusted Board Boot Requirements
-==================================
+##################################
 
 `Trusted Board Boot Requirements CLIENT (TBBR-CLIENT) Armv8-A <https://static.docs.arm.com/den0006/d/DEN0006D_Trusted_Board_Boot_Requirements.pdf>`_
 
@@ -45,25 +45,29 @@ NV counter 用于标记当前firmware版本，防回滚。
 
 image先加密(optional)，后签名。
 
-- Non-Trusted Firmware Updater certificate
+Non-Trusted Firmware Updater certificate
+**************************************************
 
     Public Key (OEM): Root of Trust Public Key
 
     Extension域包含： Firmware Updater hash，AP Firmware Update Config hash，SCP Firmware Update Config hash
 
-- Trusted Boot Firmware certificate
+ Trusted Boot Firmware certificate
+**************************************************
 
     Public Key (OEM): Root of Trust Public Key
 
     Extension域包含：Trusted Boot Firmware的hash，NV Counter
 
-- Trusted Key certificate
+ Trusted Key certificate
+**************************************************
 
     Public Key (OEM): Root of Trust Public Key
 
     Extension域包含： NV Counter, Primary Debug Certificate Public Key, Trusted World Public Key, Non Trusted World Public Key
 
-    1. Trusted Debug Certificate
+ Trusted Debug Certificate
+**************************************************
 
         Public Key (OEM) : Primary Debug Certificate Public Key
 
@@ -75,7 +79,8 @@ image先加密(optional)，后签名。
 
             Extension域包含：Debug Scenario, `SOC_ID`, SoC Specific
 
-    #. Trusted SoC Firmware certificate
+     Trusted SoC Firmware certificate
+**************************************************
 
         Public Key (OEM) : Trusted World Public Key
 
@@ -87,7 +92,8 @@ image先加密(optional)，后签名。
 
             Extension域包含：NV Counter, AP Rom Patch Hash, SoC Config Hash, SoC AP Firmware Hash
 
-    #. Trusted OS Firmware certificate
+     Trusted OS Firmware certificate
+**************************************************
 
         Public Key (OEM) : Trusted World Public Key
 
@@ -100,7 +106,8 @@ image先加密(optional)，后签名。
             Extension域包含：NV Counter, Trusted OS Firmware Hash
 
 
-    #. Non-Trusted Firmware Key certificate
+     Non-Trusted Firmware Key certificate
+**************************************************
 
         Public Key (OEM) : Non Trusted World Public Key
 
@@ -112,7 +119,8 @@ image先加密(optional)，后签名。
 
             Extension域包含：NV Counter, Non Trusted World Bootloader Hash
 
-    #. Trusted SCP Firmware certificate
+     Trusted SCP Firmware certificate
+**************************************************
 
         Public Key (OEM) : Trusted World Public Key
 
@@ -125,7 +133,7 @@ image先加密(optional)，后签名。
             Extension域包含：NV Counter, SCP Rom Patch Hash, SCP Firmware Hash
 
 list of images and patch files
----------------------------------
+=================================
 
 文档的附录B列的比较全。
 
