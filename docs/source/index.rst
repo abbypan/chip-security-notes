@@ -43,3 +43,4 @@
    :caption: Attestation
 
    attestation/amd-sev-snp-att
+   attestation/intel-sgx
