@@ -61,8 +61,7 @@ sealing key派生key policy有两种：MRENCLAVE，MRSIGNER分别锁定enclave�
 - `Intel SGX deprecation review  <https://hardenedvault.net/blog/2022-01-15-sgx-deprecated/>`_
 - `I cannot play back my 4k Blu-Ray even though I have an SGX-capable CPU in my computer <https://answers.microsoft.com/en-us/windows/forum/all/i-cannot-play-back-my-4k-blu-ray-even-though-i/255cc241-4dd3-4ebc-9d8f-1cadfe5e2173>`_
 - `Intel SGX Explained <https://eprint.iacr.org/2016/086.pdf>`_
-- `Intel® Trust Domain Extensions Data Center Attestation Primitives (Intel® TDX DCAP): Quote Generation Library and Quote Verification Library <https://download.01.org/intel-sgx/latest/dcap-latest/linux/docs/Intel_TDX_DCAP_Quoting_Library_API.pdf
->`_
+- `Intel® Trust Domain Extensions Data Center Attestation Primitives (Intel® TDX DCAP): Quote Generation Library and Quote Verification Library <https://download.01.org/intel-sgx/latest/dcap-latest/linux/docs/Intel_TDX_DCAP_Quoting_Library_API.pdf>`_
 - `Intel® Trust Domain Extensions (Intel® TDX) Module Base Architecture Specification <https://cdrdv2-public.intel.com/733575/intel-tdx-module-1.5-base-spec-348549002.pdf>`_
 - `Overview of Intel SGX - Part 1, SGX Internals <https://blog.quarkslab.com/overview-of-intel-sgx-part-1-sgx-internals.html>`_
 - `Overview of Intel SGX - Part 2, SGX Externals <https://blog.quarkslab.com/overview-of-intel-sgx-part-2-sgx-externals.html>`_
