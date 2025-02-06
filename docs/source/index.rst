@@ -44,3 +44,10 @@
 
    attestation/amd-sev-snp-att
    attestation/intel-sgx
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: DRM
+
+   drm/widevine
