@@ -13,7 +13,30 @@
    :caption: Platform
 
    platform/index
+   platform/trustzone
    platform/tbsa
+   platform/exception
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Base
+
+   base/arm-arch
+   base/gic
+   base/elf
+   base/secu-soft
+   base/isa
+   base/generic-timer
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Memory
+
+   memory/memory-model
+   memory/memory-manage
+
 
 .. toctree::
    :maxdepth: 1
@@ -51,3 +74,10 @@
    :caption: DRM
 
    drm/widevine
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: virtualization
+
+   virtualization/arm-virtual
