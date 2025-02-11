@@ -142,3 +142,4 @@ optee的处理更好一点。
 #. `Exploiting RPMB authentication in a closed source TEE implementation <https://www.sciencedirect.com/science/article/pii/S2666281723002019>`_
 #. `RPMB, a secret place inside the eMMC <https://sergioprado.blog/rpmb-a-secret-place-inside-the-emmc/>`_
 #. `Keyless Entry: Breaking and Entering eMMC RPMB with EMFI <https://dl.acm.org/doi/pdf/10.1145/3643833.3656114>`_  
+#. `i.MX RT eMMC RPMB Enablement <https://www.nxp.com/docs/en/application-note/AN13975.pdf>`_

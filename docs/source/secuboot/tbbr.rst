@@ -1,5 +1,5 @@
-Trusted Board Boot Requirements
-##################################
+TBBR (Trusted Board Boot Requirements)
+###########################################
 
 `Trusted Board Boot Requirements CLIENT (TBBR-CLIENT) Armv8-A <https://static.docs.arm.com/den0006/d/DEN0006D_Trusted_Board_Boot_Requirements.pdf>`_
 

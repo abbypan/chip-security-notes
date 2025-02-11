@@ -22,12 +22,13 @@
    :maxdepth: 1
    :caption: Base
 
-   base/arm-arch
+   base/arch
    base/gic
    base/elf
    base/secu-soft
    base/isa
    base/generic-timer
+   base/software-stack
 
 
 .. toctree::
@@ -44,7 +45,9 @@
 
    secuboot/index
    secuboot/tbbr
+   secuboot/qualcomm-secure-boot
    secuboot/dice
+   secuboot/dice2
 
 
 .. toctree::
@@ -80,4 +83,4 @@
    :maxdepth: 1
    :caption: virtualization
 
-   virtualization/arm-virtual
+   virtualization/virtual
