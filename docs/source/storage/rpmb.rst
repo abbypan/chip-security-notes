@@ -19,6 +19,31 @@ RPMB是从eMMC划出一块特殊的区域，128KB的整数倍，进行访问控�
 
 modem 通过 IPC，请 AP 帮忙把某些数据（例如device id、subscriber id、call number）写入eMMC，这些信息一般是需要保密、且防篡改。
 
+emmc partition
+-----------------
+
+Boot Area Partitions: boot1, boot2
+
+RPMB Partition
+
+General Purpose Partitions (GPP): 1~4，GPP分区一般OTP单次写入。
+
+User Data Area: 可基于GPT重分区。
+
+
+partition size
+-------------------
+
+boot1, boot2, rpmb  三个partition的默认size
+
+::
+
+    Partition Size = 128KB × BOOT_SIZE_MULT
+
+默认 BOOT_SIZE_MULT = 32，Partition = 4MB。
+
+BOOT_SIZE_MULT最高 128，Partition 最高16MB。
+
 overview
 ----------
 
@@ -133,6 +158,7 @@ optee的处理更好一点。
 
 
 
+
 参考资料
 -----------
 
@@ -143,3 +169,4 @@ optee的处理更好一点。
 #. `RPMB, a secret place inside the eMMC <https://sergioprado.blog/rpmb-a-secret-place-inside-the-emmc/>`_
 #. `Keyless Entry: Breaking and Entering eMMC RPMB with EMFI <https://dl.acm.org/doi/pdf/10.1145/3643833.3656114>`_  
 #. `i.MX RT eMMC RPMB Enablement <https://www.nxp.com/docs/en/application-note/AN13975.pdf>`_
+#. `emmc 分区管理 <https://blog.csdn.net/weixin_43982460/article/details/136429640>`_
