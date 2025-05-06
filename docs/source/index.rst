@@ -29,6 +29,7 @@
    base/isa
    base/generic-timer
    base/software-stack
+   base/arm-psa
 
 
 .. toctree::
@@ -43,11 +44,11 @@
    :maxdepth: 1
    :caption: Secure Boot
 
-   secuboot/index
-   secuboot/tbbr
-   secuboot/qualcomm-secure-boot
-   secuboot/dice
-   secuboot/dice2
+   boot/index
+   boot/tbbr
+   boot/qualcomm-secure-boot
+   boot/dice
+   boot/dice2
 
 
 .. toctree::
@@ -62,6 +63,14 @@
    :caption: Secure Storage
 
    storage/rpmb
+   storage/hsm
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: TEE
+
+   tee/tee-ana
 
 
 .. toctree::

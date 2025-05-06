@@ -163,10 +163,13 @@ optee的处理更好一点。
 -----------
 
 1. `e.MMC Security Methods <https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/collateral/white-paper/white-paper-emmc-security.pdf>`_
+#. `Replay Protected Memory Block (RPMB) <https://www.sdcard.org/developers/boot-and-new-security-features/replay-protected-memory-block/>`_
 #. `Hardware-Backed Mobile Secure Storage <https://www.qualcomm.com/media/documents/files/guard-your-data-with-the-qualcomm-snapdragon-mobile-platform.pdf>`_
 #. `Mobile Secure Data protection using eMMC RPMB Partition <https://ieeexplore.ieee.org/document/7411305>`_
 #. `Exploiting RPMB authentication in a closed source TEE implementation <https://www.sciencedirect.com/science/article/pii/S2666281723002019>`_
 #. `RPMB, a secret place inside the eMMC <https://sergioprado.blog/rpmb-a-secret-place-inside-the-emmc/>`_
 #. `Keyless Entry: Breaking and Entering eMMC RPMB with EMFI <https://dl.acm.org/doi/pdf/10.1145/3643833.3656114>`_  
 #. `i.MX RT eMMC RPMB Enablement <https://www.nxp.com/docs/en/application-note/AN13975.pdf>`_
+#. `RPMB, a secret place inside the eMMC <https://sergioprado.blog/rpmb-a-secret-place-inside-the-emmc/>`_
 #. `emmc 分区管理 <https://blog.csdn.net/weixin_43982460/article/details/136429640>`_
+#. `Android tamper-resistant anti-replay secure storage solution and virtualization <https://itdks.su.bcebos.com/1a9c67a8c5d64f568925cdebb401f491.pdf>`_

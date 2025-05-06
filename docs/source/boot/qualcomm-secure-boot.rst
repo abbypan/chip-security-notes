@@ -6,6 +6,10 @@ doc
 
 `Qualcomm Secure Boot and Image Authentication <https://www.qualcomm.com/media/documents/files/secure-boot-and-image-authentication-technical-overview-v2-0.pdf>`_
 
+`Secure boot and image authentication in mobile tech <https://www.qualcomm.com/news/onq/2017/01/secure-boot-and-image-authentication-mobile-tech>`_
+
+`Analysis of Qualcomm Secure Boot Chains <https://blog.quarkslab.com/analysis-of-qualcomm-secure-boot-chains.html>`_
+
 overview
 ==========================================================
 
@@ -106,3 +110,4 @@ mbn
 .b01: 包含 { hash segment }
 
 .b02, ..., .b06: 后面的segments
+

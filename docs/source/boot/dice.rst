@@ -179,3 +179,7 @@ DICE是一种新型的终端安全机制，优势明显：
 #. `Microsoft. DICE: Device Identifier Composition Engine. <https://www.microsoft.com/en-us/research/project/dice-device-identifier-composition-engine/>`_
 #. `Qualcomm. Secure Boot and Image Authentication. <https://www.qualcomm.com/media/documents/files/secure-boot-and-image-authentication-technical-overview-v2-0.pdf>`_
 #. `Microsoft. RIoT. <https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/RIoT20Paper-1.1-1.pdf>`_
+#. `DICE resource <https://trustedcomputinggroup.org/resources/?workgroups=DICE&>`_
+#. `Open Profile for DICE <https://pigweed.googlesource.com/open-dice/+/refs/heads/main/docs/specification.md#Deriving-Asymmetric-Key-Pairs>`_
+#. `Measured Boot and Remote Attestation <https://lf-edge.atlassian.net/wiki/spaces/EVE/pages/14584444/Measured+Boot+and+Remote+Attestation>`_
+
