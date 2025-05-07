@@ -64,6 +64,7 @@
 
    storage/rpmb
    storage/hsm
+   storage/sfs
 
 
 .. toctree::
@@ -93,3 +94,11 @@
    :caption: virtualization
 
    virtualization/virtual
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: CE
+
+   ce/ce
+   ce/ice
