@@ -173,3 +173,4 @@ optee的处理更好一点。
 #. `RPMB, a secret place inside the eMMC <https://sergioprado.blog/rpmb-a-secret-place-inside-the-emmc/>`_
 #. `emmc 分区管理 <https://blog.csdn.net/weixin_43982460/article/details/136429640>`_
 #. `Android tamper-resistant anti-replay secure storage solution and virtualization <https://itdks.su.bcebos.com/1a9c67a8c5d64f568925cdebb401f491.pdf>`_
+#. `Implement Android Tamper-Resistant Secure Storage and Secure it in Virtualization <https://events19.linuxfoundation.org/wp-content/uploads/2017/12/Implement-Android-Tamper-Resistant-Secure-Storage-Bing-Zhu_and-Secure-it-in-Virtualization-Bing-Zhu-Intel-Corporation.pdf>`_

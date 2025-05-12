@@ -1,9 +1,6 @@
 Arm architecture
 ##################
 
-`Introducing the Arm architecture <https://developer.arm.com/architectures/learn-the-architecture/introducing-the-arm-architecture/single-page>`_
-
-`Don't We All need ARMs? <https://www.cs.umd.edu/~meesh/cmsc411/website/proj01/arm/home.html>`_
 
 three architecture profiles 
 ==============================
@@ -48,3 +45,9 @@ Architecture
 - AMBA: Advanced Microcontroller Bus Architecture
 
 Processing Element (PE): anything that has its own program counter and can execute a program
+
+doc
+======
+- `Introducing the Arm architecture <https://developer.arm.com/architectures/learn-the-architecture/introducing-the-arm-architecture/single-page>`_
+- `Don't We All need ARMs? <https://www.cs.umd.edu/~meesh/cmsc411/website/proj01/arm/home.html>`_
+- `ARM Architecture Security Features  <https://www.arm.com/architecture/security-features>`_

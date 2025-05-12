@@ -183,4 +183,5 @@ DICE是一种新型的终端安全机制，优势明显：
 #. `Open Profile for DICE <https://pigweed.googlesource.com/open-dice/+/refs/heads/main/docs/specification.md#Deriving-Asymmetric-Key-Pairs>`_
 #. `Measured Boot and Remote Attestation <https://lf-edge.atlassian.net/wiki/spaces/EVE/pages/14584444/Measured+Boot+and+Remote+Attestation>`_
 #. `Trusted Computing and Securing Devices <https://trustedcomputinggroup.org/wp-content/uploads/3.4_Trusted-Computing-and-Securing-Devices-2017.04.06-Final.pdf>`_
+#. `Decentralized Trusted Computing Base for Blockchain Infrastructure Security <https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2019.00024/full>`_
 

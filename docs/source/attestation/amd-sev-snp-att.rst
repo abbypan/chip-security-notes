@@ -17,3 +17,4 @@ VCEK 用于签发 attestation report，内容包含 Bootloader, TEE, SNP, Microc
 
 - `SEV-SNP Platform Attestation Using VirTEE/SEV <https://www.amd.com/content/dam/amd/en/documents/developer/58217-epyc-9004-ug-platform-attestation-using-virtee-snp.pdf>`_
 - `AMD Secure Encrypted Virtualization (SEV) <https://www.amd.com/en/developer/sev.html>`_
+- `AMD SEV-SNP Attestation: Establishing Trust in Guests <https://www.amd.com/content/dam/amd/en/documents/developer/lss-snp-attestation.pdf>`_

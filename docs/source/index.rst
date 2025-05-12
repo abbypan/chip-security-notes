@@ -76,10 +76,18 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: SE
+
+   se/nfc
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Attestation
 
    attestation/amd-sev-snp-att
    attestation/intel-sgx
+   attestation/arm-rats
 
 
 .. toctree::
@@ -94,6 +102,10 @@
    :caption: virtualization
 
    virtualization/virtual
+   virtualization/cca
+   virtualization/intel-acrn
+   virtualization/qualcomm-gunyah
+
 
 
 .. toctree::
@@ -102,3 +114,10 @@
 
    ce/ce
    ce/ice
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: SE
+
+   se/nfc
